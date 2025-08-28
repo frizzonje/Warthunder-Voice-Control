@@ -1,0 +1,45 @@
+{
+    "KEY_BINDINGS": {
+        "forward": "w",
+        "back": "s",
+        "left": "a",
+        "right": "d",
+        "handbrake": "[",
+        
+        "fire": "left",
+        "machinegun": "space",
+        "scope": "shift",
+        "binoculars": "b",
+        "menu": "y",
+        "chat_open": "enter",
+
+        "rangefinder": "e",
+        "smoke_tank": "g",
+        "repair": "r",
+        "fire_extinguisher": "f",
+        "artillery": "5",
+        "tow_cable": "0",
+        "atgm_launch_tank": "r",
+        "thermal_vision": "alt+o",
+        "shell_1": "1",
+        "shell_2": "2",
+        "shell_3": "3",
+        "shell_4": "4",
+        
+        "drone_toggle": "alt+u",
+        "drone_lock_target": "alt+f",
+        "drone_orbit": "h",
+        "drone_mark_target": "ctrl+y",
+
+        "landing_gear": "g",
+        "flaps": "f",
+        "air_brake": "h",
+        "radar_lock": "alt",
+        "missile_launch_plane": "shift+space",
+        "weapon_selector": "u",
+        "jettison_secondary": "enter",
+
+        "rage_quit_1": "alt",
+        "rage_quit_2": "f4"
+    }
+}

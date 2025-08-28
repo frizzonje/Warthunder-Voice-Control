@@ -1,0 +1,6 @@
+SpeechRecognition>=3.8.1
+pyaudio>=0.2.11
+keyboard>=0.13.5
+mouse>=0.7.1
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.12.2
