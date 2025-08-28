@@ -1,4 +1,4 @@
-# War Thunder Voice Control 🎮🎤
+# War Thunder Voice Control 
 
 ### Choose your language / Выберите язык
 
