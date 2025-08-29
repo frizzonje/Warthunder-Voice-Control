@@ -118,7 +118,7 @@ class LanguageSupport:
                 'tow_cable': ["tow cable", "tow"],
                 'rangefinder': ["rangefinder", "range"],
                 'thermal': ["thermal vision", "thermals"],
-                'atgm': ["atgm", "guided missile"],
+                'atgm': ["atgm"],
                 'shell_1': ["shell one", "first shell"],
                 'shell_2': ["shell two", "second shell"],
                 'shell_3': ["shell three", "third shell"],

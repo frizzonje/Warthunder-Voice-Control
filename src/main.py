@@ -3,11 +3,11 @@ import sys
 import json
 import os
 from fuzzywuzzy import fuzz
-from utils.commands import CommandHandler  # Adjust imports to your structure
+from utils.commands import CommandHandler 
 from utils.language import LanguageSupport
 
 PAUSE_THRESHOLD = 0.7
-PHRASE_TIME_LIMIT = 3.0
+PHRASE_TIME_LIMIT = 5
 ENERGY_THRESHOLD = 300
 MATCH_THRESHOLD = 80
 
