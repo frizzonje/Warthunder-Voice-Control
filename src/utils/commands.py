@@ -185,8 +185,7 @@ class CommandHandler:
             mouse.press(key)
             time.sleep(duration)
             mouse.release(key)
-            print(self._get_command_message(action_type, command_name))
-            
+            print(self._get_command_message(action_type, command_name))            
         else:
             self._execute_key_action(key, duration)
             print(self._get_command_message(action_type, command_name))
@@ -265,6 +264,19 @@ class CommandHandler:
             'missile_lock': self.action_missile_lock_mouse,
             'missile': lambda: self.single_press("missile_launch_plane"),
             'weapon': lambda: self.single_press("weapon_selector"),
-            'bombs': lambda: self.single_press("jettison_secondary"),
+            'bombs': self.drop_bombs,
         }
         return func_map.get(cmd)
+
+    def drop_bombs(self):
+        print("Command: Carpet bombing" if self.lang_support.current_language == "en" else "Команда: Ковровая бомбардировка")
+        key = self.key_bindings.get("bomb_dropping")
+        if not key:
+            print("No binding for bomb_dropping")
+            return
+            
+        for _ in range(10):
+            keyboard.press(key)
+            time.sleep(0.05)
+            keyboard.release(key)
+            time.sleep(0.05)

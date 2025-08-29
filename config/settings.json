@@ -37,7 +37,7 @@
         "radar_lock": "alt",
         "missile_launch_plane": "shift+space",
         "weapon_selector": "u",
-        "jettison_secondary": "enter",
+        "bomb_dropping": "space",
 
         "rage_quit_1": "alt",
         "rage_quit_2": "f4"
